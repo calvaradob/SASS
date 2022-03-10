@@ -1,0 +1,35 @@
+h1 {
+  font-size: 40px;
+  font-size: 40px;
+  color: white;
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  float: left;
+  width: 33.33333%;
+  height: 400px;
+  background-color: darkturquoise;
+}
+
+aside {
+  float: left;
+  width: 66.66667%;
+  height: 400px;
+  background-color: darkcyan;
+}
+/*# sourceMappingURL=styles.css.map */
