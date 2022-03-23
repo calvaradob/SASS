@@ -1,0 +1,14 @@
+/*Base*/
+@import './base/_resets.scss';
+@import './base/base';
+
+/*Abstracts*/
+@import './abstracts/variables';
+
+/*Layout*/
+@import './layout/header';
+@import './layout/layout';
+
+/*Componentes*/
+@import './components/component';
+@import './components/testimoniales';

@@ -1,0 +1,9 @@
+/* footer */
+.footer.bg-dark {
+  background-color: #333333;
+}
+
+.footer .nav-link {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}

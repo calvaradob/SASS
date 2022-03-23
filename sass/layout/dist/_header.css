@@ -1,0 +1,30 @@
+.bg-success {
+  background-color: #3a5804 !important;
+}
+
+@media (min-width: 768px) {
+  .barra.bg-success {
+    background-color: transparent !important;
+  }
+
+  .header {
+    position: relative;
+  }
+  .header .header .barra {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+  }
+  .header .navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .header .navbar-brand span {
+    font-weight: 900;
+  }
+  .header .navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #f3eaea;
+    font-size: 0.8rem;
+  }
+}

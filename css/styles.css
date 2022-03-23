@@ -1,0 +1,102 @@
+
+
+
+
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: #eeee97;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #141313;
+    text-transform: uppercase;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e9cfd2;
+}
+
+/** Caption **/
+
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+
+.bloque-info p {
+    font-size: 1.4rem;
+}
+
+.btn-warning {
+    background-color: rgb(126, 76, 108);
+    color: #FFFFFF;
+    border-color: #2e2b26;
+    font-weight: 700;
+}
+
+/* Nosotros */
+
+.sobre-nosotros h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Anuncios */
+
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+
+.card-precio {
+    font-size: 1.1rem;
+    color: #9c00b1;
+}
+
+.card-description img {
+    margin-right: .5rem;
+}
+
+/* Encuentra */
+
+.encuentra {
+    background-image: url(../img/fondo\ dani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encuentra .row {
+    height: 25rem;
+}
+
+.encuentra h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+/* Blog */
+.entrada h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+
+.meta span {
+    color: #eed5b1;
+}
+
+.btn-success {
+    background-color: #b10099;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-success:hover{
+    background-color: #8a0296;
+}
+
+
+
+

@@ -1,0 +1,85 @@
+/*Base*/
+:root {
+  --primario: #71b100;
+  --secundario: #94aca0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+/*Abstracts*/
+/*Layout*/
+.bg-success {
+  background-color: #3a5804 !important;
+}
+
+@media (min-width: 768px) {
+  .barra.bg-success {
+    background-color: transparent !important;
+  }
+
+  .header {
+    position: relative;
+  }
+  .header .header .barra {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+  }
+  .header .navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .header .navbar-brand span {
+    font-weight: 900;
+  }
+  .header .navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #f3eaea;
+    font-size: 0.8rem;
+  }
+}
+/* footer */
+.footer.bg-dark {
+  background-color: #333333;
+}
+
+.footer .nav-link {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/*Componentes*/
+/* Testimoniales */
+.testimoniales {
+  background-color: #852c71;
+}
+
+.testimoniales .carousel-item {
+  padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.testimoniales .testimonial-texto::before {
+  content: open-quote;
+  font-size: 4rem;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  font-weight: 900;
+}
+
+.testimoniales span {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
